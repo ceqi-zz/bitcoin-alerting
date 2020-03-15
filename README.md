@@ -8,7 +8,9 @@ I have this need to track bitcoin price for my friend, so I could buy coins for 
 
 Most coin price monitoring websites offer email notification for free, not for SMS. So I thought I could build a 'free' SMS notification service.
 
-I want this to be done quickly, so give serverless a go, turned out it's really quick to build APIs once the infrastructure is ready.
+I want this to be done quickly, so give serverless a go, I used aws console to spin up the services,turned out it's really quick to build APIs once the infrastructure is ready.
+
+Then I'd like to preserve what I've done, best way is in code, by default, we use terraform, but I want to try aws cli, and now I know why by default use terraform...
 
 There are many ways to spin up AWS infrastructure: 
 - terraform
