@@ -4,7 +4,7 @@ A simple service that will send me a text message when bitcoin price above/below
 
 
 ## Some Thoughts
-I has this need to track bitcoin price for my friend, so I could buy coins for him once the price reaches below certain price.
+I have this need to track bitcoin price for my friend, so I could buy coins for him once the price reaches below certain price.
 
 Most coin price monitoring websites offer email notification for free, not for SMS. So I thought I could build a 'free' SMS notification service.
 
