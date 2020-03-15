@@ -4,7 +4,7 @@ A simple service that will send me a text message when bitcoin price above/below
 
 
 ## Some Thoughts
-I have this need to track bitcoin price for my friend, so I could buy coins for him once the price reaches below certain price.
+I have this need to track bitcoin price for my friend, so I could buy coins for him once the price is below certain price.
 
 Most coin price monitoring websites offer email notification for free, not for SMS. So I thought I could build a 'free' SMS notification service.
 
@@ -69,7 +69,7 @@ lambda-exec-role-arn format: `arn:aws:iam::${iam-user-id}:role/${role-name}`
 
 ### Create API via apigatewayv2
 
-apigatewayv2 creates HTTP API, POST endpoint, deploy to prod. have the url to added to [cryptocurrencyalerting.com](cryptocurrencyalerting.com)'s webhook config, this API integrates with lambda function
+apigatewayv2 creates HTTP API, POST endpoint, have the url to be added to [cryptocurrencyalerting.com](cryptocurrencyalerting.com)'s webhook config, this API integrates with lambda function
 
 > It seems that the integration is not working via cli, so the walk around is to create a default endpoint, then create route, then attach integration via console
 
